@@ -25,4 +25,66 @@ h5,
 h6 {
   font-family: "Montserrat";
 }
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
 /* global ends */
+
+/* hero starts */
+.hero {
+  background-color: var(--bg-gray);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+.hero .hero-img,
+.hero .hero-content {
+  width: 50%;
+}
+
+.hero .hero-img {
+  height: 100%;
+}
+.hero .hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .hero-content h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero .hero-content p {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 0.7rem;
+}
+
+.hero .hero-content a[href="#portfolio"] {
+  color: var(--white);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  padding: 0.7rem 2rem;
+  display: inline-block;
+  border-radius: 3rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+.hero .hero-content a[href="#portfolio"]:hover {
+  background-color: var(--primary-hover);
+}
+
+.hero .hero-content .social a {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* hero ends */

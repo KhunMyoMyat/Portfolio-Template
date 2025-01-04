@@ -1,0 +1,28 @@
+/* global starts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --primary: #ff1967;
+  --primary-hover: #f9578e;
+  --white: #fff;
+  --black: #000;
+  --bg-gray: #ededed;
+  --gray: rgb(162, 162, 162);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+/* global ends */

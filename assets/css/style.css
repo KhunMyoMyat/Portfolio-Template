@@ -26,6 +26,12 @@ h6 {
   font-family: "Montserrat";
 }
 
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
 a {
   text-decoration: none;
   color: var(--black);
@@ -88,3 +94,54 @@ a {
   font-size: 1.5rem;
 }
 /* hero ends */
+
+/* mediaquery starts */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+  .container {
+    max-width: 730px;
+  }
+
+  /* hero */
+  .hero {
+    height: auto;
+  }
+  .hero .hero-img,
+  .hero .hero-content {
+    width: 100%;
+  }
+  .hero .hero-img img {
+    height: 70vw;
+    object-fit: contain;
+  }
+  .hero .hero-content {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .container {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+  .container {
+    width: 100%;
+  }
+}
+/* mediaquery ends */

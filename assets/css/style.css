@@ -159,6 +159,32 @@ section {
 
 /* about ends */
 
+/* project starts */
+.project .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project .container .item {
+  text-align: center;
+  width: 25%;
+  padding: 2rem;
+}
+
+.project .container .item .number {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.project .container .item .label {
+  color: var(--gray);
+  text-transform: uppercase;
+  font-weight: 0.8rem;
+}
+/* project ends */
+
 /* mediaquery starts */
 @media (max-width: 1200px) {
   .container {
@@ -204,6 +230,11 @@ section {
   .container {
     max-width: 550px;
   }
+
+  /* project */
+  .project .container .item {
+    width: 50%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -211,6 +242,11 @@ section {
     font-size: 75%;
   }
   .container {
+    width: 100%;
+  }
+
+  /* project */
+  .project .container .item {
     width: 100%;
   }
 }

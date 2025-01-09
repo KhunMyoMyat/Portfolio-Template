@@ -208,6 +208,23 @@ section {
 }
 /* project ends */
 
+/* work start */
+.work {
+  text-align: center;
+  background-image: url(../imgs/banner.jpg);
+  background-size: cover;
+}
+
+.work a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--primary);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+/* work ends */
+
 /* mediaquery starts */
 @media (max-width: 1200px) {
   .container {

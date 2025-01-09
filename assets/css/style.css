@@ -244,6 +244,11 @@ section {
   .about .container .about-progress {
     width: 100%;
   }
+
+  /* gallery */
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -271,6 +276,11 @@ section {
   /* project */
   .project .container .item {
     width: 100%;
+  }
+
+  /* gallery */
+  .gallery {
+    grid-template-columns: 1fr;
   }
 }
 /* mediaquery ends */

@@ -225,6 +225,34 @@ section {
 }
 /* work ends */
 
+/* language starts */
+.language {
+  border-bottom: 1px solid var(--bg-gray);
+}
+
+.language .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+.language .container .item {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  flex: 15rem 0 1;
+}
+
+.language .container .item i {
+  color: var(--primary);
+  font-size: 2.5rem;
+  padding-right: 0.5rem;
+}
+/* language ends */
+
 /* mediaquery starts */
 @media (max-width: 1200px) {
   .container {

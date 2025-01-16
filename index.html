@@ -13,6 +13,9 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- css link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -22,7 +25,12 @@
       <div class="hero-img">
         <img src="./assets/imgs/hero.jpg" alt="" />
       </div>
-      <div class="hero-content">
+      <div
+        class="hero-content"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
         <h1>Hello, I'm <br />Colin <br />Smith.</h1>
         <p>UI/UX Designer &amp; Frontend Developer</p>
         <a href="#portfolio">check portfolio</a>
@@ -38,7 +46,12 @@
     <!-- about -->
     <section class="about">
       <div class="container">
-        <div class="about-content">
+        <div
+          class="about-content"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <h1 class="title">About me.</h1>
           <p class="text-red">
             born 1990, berkeley california / royal college of art, london (2025)
@@ -55,7 +68,12 @@
           </p>
         </div>
 
-        <div class="about-progress">
+        <div
+          class="about-progress"
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <div class="progress">
             <!-- will create with css by give percentages and bg it -->
             <div class="bar">
@@ -228,6 +246,12 @@
       </div>
     </footer>
 
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- js -->
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

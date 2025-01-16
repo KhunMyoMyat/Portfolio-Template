@@ -297,6 +297,35 @@ section {
 }
 /* contact ends */
 
+/* footer starts */
+footer {
+  background: var(--bg-gray);
+}
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 2rem;
+}
+footer .logo {
+  color: var(--primary);
+  font-size: 3rem;
+}
+footer p {
+  font-size: 0.8rem;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+footer ul li a {
+  display: block;
+  padding: 0.5rem;
+}
+
+/* footer ends */
+
 /* mediaquery starts */
 @media (max-width: 1200px) {
   .container {
@@ -356,6 +385,12 @@ section {
   /* contact */
   #contact form {
     max-width: 80%;
+  }
+
+  /* footer */
+  footer .item {
+    width: 100%;
+    text-align: center;
   }
 }
 
